@@ -45,7 +45,7 @@ header h1{
     text-decoration: none;
     display: inline-block;
     height: 80px;
-    width: 200px;
+    width: 300px;
     position: absolute;
 }
 header p{
@@ -96,8 +96,8 @@ nav li a{
 
 div.pictures{
     position: relative;
-    width:  100%; /* ç”»åƒã®æ¨ªå¹…ã«åˆã‚ã›ã¦è¨˜è¿° */
-    height: 750px; /* ç”»åƒã®é«˜ã•ã«åˆã‚ã›ã¦è¨˜è¿° */
+    width:  100%; /
+    height: 750px; /
     margin: 0 auto;
  }
 div.pictures img{
