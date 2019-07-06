@@ -1,0 +1,377 @@
+body{
+    color: #444;
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+    font-family: 'Montserrat', 'sans-serif';
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+    padding-top: 80px;
+    border-top: solid #999 1px;
+}
+
+section{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+header{
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid black 1px;
+}
+.header_icon{
+    height: 80px;
+    width: 200px;
+    float: left;
+    position: relative;
+    margin-left: 72px;
+}
+header h1{
+    margin: 0;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+    border-top: none;
+}
+.header_icon a{
+    text-decoration: none;
+    display: inline-block;
+    height: 80px;
+    width: 200px;
+    position: absolute;
+}
+header p{
+    margin: 0;
+    height: 20px;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Montserrat', 'sans-serif';
+    text-align: center;
+}
+nav{
+    float: right;
+    height: 80px;
+    width: 70%;
+}
+nav ul{
+    list-style: none;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    margin: 0;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+nav li{
+    float: left;
+    line-height: 80px;
+    width: 14%;
+    text-align: center;
+    border-left: solid #666 1px;
+}
+nav li:hover{
+    background-color: #eee;
+    transition: 0.3s;
+}
+.last_li{
+    border-right: solid #666 1px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+div.pictures{
+    position: relative;
+    width:  100%; /* ç”»åƒã®æ¨ªå¹…ã«åˆã‚ã›ã¦è¨˜è¿° */
+    height: 750px; /* ç”»åƒã®é«˜ã•ã«åˆã‚ã›ã¦è¨˜è¿° */
+    margin: 0 auto;
+ }
+div.pictures img{
+    width: 100%;
+    height: 680px;
+    text-align: center;
+}
+.kento_message{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 15px;
+    color: #eee;
+    line-height: 35px;
+}
+.kento_message h1{
+    font-size: 40px;
+    border-top: none;
+}
+.kento_message a{
+    display: inline-block;
+    color: white;
+    background-color: #55acee;
+    padding: 13px 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 100%;
+    margin-left: 10px;
+    box-shadow: 0 3px #000044;
+}
+.kento_message a:hover{
+    background-color: #359dec;
+    transition: 0.2s;
+}
+.kento_message span{
+    font-size: 20px;
+}
+.The_secret_entrance{
+  position: absolute;
+  top: 100px;
+  right: 400px;
+  padding: 100px 70px;
+  margin: 0;
+  display: inline-block;
+  line-height: 200px;
+}
+
+
+/*è‡ªå·±ç´¹ä»‹*/
+#self_intro{
+    overflow: hidden;
+}
+#self_intro img{
+    width: 40%;
+    border-radius: 20px;
+}
+#self_intro div{
+    width: 55%;
+    float: right;
+}
+#self_intro h2{
+    font-size: 30px;
+}
+
+/*çµŒæ­´*/
+
+#history table{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 20px;
+    padding: 30px;
+}
+#history table th{
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+}
+#history table tr{
+    height: 30px;
+}
+table td.t_center{
+    text-align: center;
+    width: 200px;
+}
+
+.twitter_wrapper{
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.twitter_wrapper div{
+    float: left;
+    width: 31%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*å¼·ã¿*/
+.str_wrapper{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.str{
+    float: left;
+    width: 32%;
+    background-color: #eee;
+    text-align: center;
+    margin: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    min-height: 380px;
+}
+
+/*ãƒ“ã‚¸ãƒ§ãƒ³ãƒ»åº§å³ã®éŠ˜*/
+#vision{
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+#vision img{
+    width: 40%;
+    border-radius: 20px;
+    float: right;
+    height: 700px;
+}
+#vision div{
+    width: 55%;
+    float: left;
+    margin-bottom: 30px;
+}
+#vision h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+/*ä½œå“é›†*/
+#works{
+    overflow: hidden;
+}
+#works img{
+    width: 50%;
+    border-radius: 20px;
+    float: left;
+}
+#works h1{
+    margin-bottom: 80px;
+}
+#works div{
+    float: right;
+    width: 45%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#works div h2{
+    font-size: 30px;
+}
+#works input.button{
+    width: 80%;
+    height: 150px;
+    border-radius: 200px;
+    font-size: 30px;
+    color: #33aef5;
+    background-color: white;
+    border: solid #31a3e6 2px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#works input.button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #33aef5;
+    border: solid #31a3e6 2px;
+    transition: 0.3s;
+}
+
+/*ã‚³ãƒ³ã‚¿ã‚¯ãƒˆ*/
+#contact a{
+    display: inline-block;
+    width: 80%;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 200px;
+    font-size: 30px;
+    color: #fdb86a;
+    background-color: white;
+    border: solid #fdab3f 2px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #fdb86a;
+    border: solid #fdab3f 2px;
+    transition: 0.3s;
+}
+
+
+
+
+/*ãƒ•ãƒƒã‚¿ãƒ¼*/
+footer{
+    color: #444;
+    text-align: center;
+    border-top: solid #999 1px;
+    padding: 20px;
+}
+footer a{
+    color: #444;
+}
+
+
+/*contact.php*/
+#formform{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#formform h1{
+    border-top: none;
+}
+form{
+    width: 100%;
+    text-align: center;
+}
+form input[type="text"]{
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    border: solid 2px #999;
+}
+form textarea{
+    width: 50%;
+    height: 200px;
+    font-size: 13px;
+    border: solid 2px #999;
+}
+form input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    margin-bottom: 15px;
+}
+form input[type="submit"]:hover{
+    background-color: #111;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/*complete.php*/
+#complete h1{
+    border-top: none;
+}
+#complete p{
+    text-align: center;
+    font-size: 18px;
+}
+#complete a{
+    display: block;
+    text-align: center;
+    color: #444;
+}
